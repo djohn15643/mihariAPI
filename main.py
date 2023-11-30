@@ -1,9 +1,6 @@
 import json
 from fastapi import FastAPI
 
-### dreamapi.mihariweb.net
-### PORT:80
-
 app = FastAPI()
 
 @app.get("/member")
